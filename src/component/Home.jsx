@@ -6,9 +6,9 @@ function Home() {
       <div className="home-content">
         <h3>Hello, I'm</h3>
         <h1>Adnan Shaikh</h1>
-        <h2>Frontend Developer</h2>
+        <h2>FullStack Developer</h2>
         <p>
-          I build modern, responsive web applications using React, JavaScript,
+          I build modern, responsive web applications using React , NodeJS , JavaScript  , REST Api
           and clean UI design.
         </p>
 
