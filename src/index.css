@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -117,4 +118,35 @@ a{
 .btn.secondary:hover {
   background: #38bdf8;
   color: black;
+}
+.about-section{
+  height:calc(100vh - 60px);
+  padding:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+  background:linear-gradient(135deg, #0f172a, #1e293b);
+}
+.About{
+  max-width:900px;
+  margin:auto;
+  line-height: 1.7;
+}
+.About h1{
+  color:bisque;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+ 
+}
+.About h3{
+  font-size: 18px;
+  color:lightblue;
+}
+b{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:whitesmoke;
+}
+.About a{
+  color:beige;
 }
