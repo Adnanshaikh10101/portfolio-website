@@ -167,4 +167,38 @@ b{
   height:180px;
   border-radius: 8px;
 }
-
+.Contact{
+  color:white;
+  margin:auto;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 900px;
+}
+.contact-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  line-height: 10px;
+}
+input{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+textarea{
+  width:510px;
+  padding:6px;
+}
+.contact-container button{
+  width:530px;
+  padding:10px;
+  cursor: pointer;
+  border:none;
+  Color:black;
+}
+.contact-container button:hover{
+  background-color: rgb(98, 233, 98);
+}
