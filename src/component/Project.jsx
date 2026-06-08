@@ -7,7 +7,6 @@ function Project(){
                     <h2>Word Converter</h2>
                     <img src="project1.png" alt="Project1"></img>
                 </div></a>
-                
             </div>
     );
 }

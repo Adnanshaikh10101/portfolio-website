@@ -160,7 +160,7 @@ b{
 }
 .project-container h2{
   color:white;
-  margin:auto;
+  margin:0;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .project-container img{
