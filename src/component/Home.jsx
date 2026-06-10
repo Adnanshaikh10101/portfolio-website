@@ -13,8 +13,8 @@ function Home() {
         </p>
 
         <div className="buttons">
-          <button className="btn primary">Hire Me</button>
-          <button className="btn secondary">View Projects</button>
+          <a href="/contact"><button className="btn primary">Hire Me</button></a>
+          <a href="/projects"><button className="btn secondary">View Projects</button></a>
         </div>
       </div>
     </section>
