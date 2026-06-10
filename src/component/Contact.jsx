@@ -1,6 +1,6 @@
 import "../index.css";
 import React, { useState } from "react";
-import api from "../service/api"; // ✅ add this
+import api from "../service/api"; 
 
 function Contact() {
     const [form, setform] = useState({
@@ -22,7 +22,7 @@ function Contact() {
         }
 
         try {
-            const res = await api.post("/contact", form); // ✅ axios used here
+            const res = await api.post("/contact", form); 
             alert(res.data.msg);
 
             setform({
