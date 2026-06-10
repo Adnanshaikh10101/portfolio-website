@@ -1,6 +1,6 @@
 import "../index.css";
 import React, { useState } from "react";
-import api from "../service/api"; 
+import api from "../services/api"; 
 
 function Contact() {
     const [form, setform] = useState({
